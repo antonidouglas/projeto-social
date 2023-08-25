@@ -40,3 +40,23 @@ iframe#tela {
     height: 468px;
     width: 264px;
 }
+
+section#botao {
+    position: absolute;
+    top: 79.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.botao {
+    position: relative;
+    top: 13.3%;
+    left: 42.2%;
+    cursor: pointer;
+    border: 3px solid transparent;
+    border-radius: 100%;
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
