@@ -41,14 +41,7 @@ iframe#tela {
     width: 264px;
 }
 
-section#botao {
-    position: absolute;
-    top: 79.5%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.botao {
+#botaoh {
     position: relative;
     top: 13.3%;
     left: 42.2%;
@@ -59,4 +52,27 @@ section#botao {
     height: 50px;
     width: 50px;
     box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+#botaodesliga {
+    position: relative;
+    top: -54.5%;
+    left: 72.2%;
+    cursor: pointer;
+    border: 3px solid black;
+    background-color: transparent;
+    height: 50px;
+    width: 50px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.6);
+}
+
+#botaodesliga:active {
+    position: relative;
+    top: -50.5%;
+    left: 72.2%;
+    width: 264px;
+    height: 468px;
+    background-color: black;
+
+    transition-duration: 1s;
 }
